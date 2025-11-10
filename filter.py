@@ -87,12 +87,12 @@
 # print(data)
 # f.close()
 
-f=open("a1.txt",'at')
-data="this is python class\n"
-data1='this is java class\n'
-data3='this is math class\n'
-f.writelines([data,data1,data3])
-f.close()
+# f=open("a1.txt",'at')
+# data="this is python class\n"
+# data1='this is java class\n'
+# data3='this is math class\n'
+# f.writelines([data,data1,data3])
+# f.close()
 
 # f=open("a1.txt",'rt')
 # data=f.read()
@@ -121,8 +121,30 @@ f.close()
 # print(f.closed)
 
 # ***diffret b\w open()and with open()
-with open('a1.txt','rt')as f:
+# with open('a1.txt','rt')as f:
+#     print(f.tell())
+#     data=f.read(10)
+#     print(data)
+#     print(f.tell())
+
+#seeks
+
+# with open('n1.txt','ab+')as f:
+#     print(f.tell())
+#     data=b'this is python class'
+#     f.write(data)
+#     print(f.tell())
+#     data1=f.read()
+#     print(data1)
+#     f.seek(0,0)
+#     print(f.tell())
+#     data2=f.read(20)
+#     print(data2)
+#     print(f.tell())
+
+with open('n1.txt','rb+')as f:
     print(f.tell())
-    data=f.read(10)
-    print(data)
+    f.read(10)
     print(f.tell())
+    f.seek(-5,1)
+    print(f.tell)
