@@ -1,42 +1,35 @@
+# class student:
+#     school='SHSS'
+#     def __init__(self,name,roolno):
+#         self.n=name
+#         self.n=roolno
+#         print(student.school)
+# def addnew(self):
+#     student.schoolcode=101
+# def show(self):
+#     print(student.school,student.principal,student.schoolcode)
+# classmethod
+# def create_or_update(cls):
+#     cls.x=10
+#     print(student.school,student.principal,student.schoolcity)
+# obj=student("neeraj",111)
+# obj.addnew()
+# obj.show()
+# obj.create_or_update()
+# student.schoolcity='Bhopal'
+# obj.create_or_update()
 
-1 question
-n = int(input("Enter a number: "))
-print("Even numbers are:")
-for i in range(2, n*2 + 1, 2):
-    print(i, end=" ")
-    
-    2 question
-    
-n = int(input("Enter a number: "))
-sum_even = 0
-for i in range(2, n*2 + 1, 2):
-    sum_even += i
-print("Sum of even numbers =", sum_even)
+class student:
+    def __init__(self,name,roolno):
+        self.n=name
+        self.n=roolno
+        x=10
+        print(x)
+def show(self):
+    y=10
+    print(y)
+    print(x)
+obj=student('neeraj',101)
+obj.show()
 
-3 question 
-
-n = int(input("Enter a number: "))
-product = 1
-for i in range(2, n*2 + 1, 2):
-    product *= i
-print("Multiplication of even numbers =", product)
-
-4 question 
-
-n = int(input("Enter a number: "))
-print("Odd numbers are:")
-for i in range(1, n*2, 2):
-    print(i, end=" ")
-
-5 question
-
-n = int(input("Enter a number: "))
-sum_odd = 0
-for i in range(1, n*2, 2):
-    sum_odd += i
-print("Sum of odd numbers =", sum_odd)
-
-7 question 
-n = int(input("Enter a number: "))
-for i in range(1, 11):
-    print(n, "x", i, "=", n*i)
+        
