@@ -105,18 +105,20 @@
 # obj.add(10,20,30)
 # obj.add(10,20,30,40)
 
-from abc import ABC, abstractmethod
-class calculater(ABC):
-    def add(self,a,b):
-        print(a+b)
-    def sub(self,a,b):
-            print(a-b)
-    def multi(self,a,b):
-        print(a+b)
-    @abstractmethod
-    def div(self):
-        pass
-class junior(calculater):
-    def div(self,a,b):
-        print(a/b)
-obj=junior()
+# from abc import ABC, abstractmethod
+# class calculater(ABC):
+#     def add(self,a,b):
+#         print(a+b)
+#     def sub(self,a,b):
+#             print(a-b)
+#     def multi(self,a,b):
+#         print(a+b)
+#     @abstractmethod
+#     def div(self):
+#         pass
+# class junior(calculater):
+#     def div(self,a,b):
+#         print(a/b)
+# obj=junior()
+
+
