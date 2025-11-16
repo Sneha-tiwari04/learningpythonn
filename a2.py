@@ -121,4 +121,28 @@
 #         print(a/b)
 # obj=junior()
 
+#public
+# class parent:
+#     bank='HDFC'
+#     def add(self):
+#         print("Hello")
+# class child(parent):
+#     pass
+# obj.child()
+# print(obj.bank)
+# obj.add
 
+#private
+class parent:
+    __bank='HDFC'
+    def __add(self):
+        print("Hello")
+class child(parent):
+    pass
+obj=child()
+# print(obj.__bank)
+# obj.__add()
+# print(parent.__bank)
+# print(dir(parent))
+print(obj.parent__bank)
+obj.parent__add()
