@@ -34,19 +34,28 @@
 # x=range(1000)
 # print(list(x))
 
-def gen_number(n):
-    i=1
-    while i<=n:
-        yield i
-n=int(input("enter a number"))
-var=gen_number(n)
-print(var)
-for i in var:
-    print(i)
-print(list(var))
-ele1=next(var)
-print(ele1)
+# def gen_number(n):
+#     i=1
+#     while i<=n:
+#         yield i
+# n=int(input("enter a number"))
+# var=gen_number(n)
+# print(var)
+# for i in var:
+#     print(i)
+# print(list(var))
+# ele1=next(var)
+# print(ele1)
+# print("hello")
+# print("welcome")
+# ele2=next(var)
+# print(ele2) 
+l=list(range(1,10))
+x=iter(l)
+print(x)
+print(next(x))
 print("hello")
-print("welcome")
-ele2=next(var)
-print(ele2)
+print(next(x))
+# for i in x:
+#     print(i)
+#     print(next(x))
