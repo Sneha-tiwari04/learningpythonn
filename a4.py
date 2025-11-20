@@ -41,4 +41,12 @@ def gen_number(n):
 n=int(input("enter a number"))
 var=gen_number(n)
 print(var)
+for i in var:
+    print(i)
 print(list(var))
+ele1=next(var)
+print(ele1)
+print("hello")
+print("welcome")
+ele2=next(var)
+print(ele2)
