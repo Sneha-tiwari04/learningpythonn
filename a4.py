@@ -63,11 +63,9 @@
 
 l=list(range(1,10))
 x=iter(l)
-for i in range (15):
- print(next(x))
- x=int(input("enter a number"))
- y=int(input("enter a number"))
-z=x/y
-print(z)
-# exept ZeroDivisionError 
-# print("please enter non-zero value against y")
+for i in range(15):
+    try:
+        print(next(x))
+    except StopIteration:
+        print("iterator is empty")
+        break
