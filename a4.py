@@ -50,12 +50,24 @@
 # print("welcome")
 # ele2=next(var)
 # print(ele2) 
-l=list(range(1,10))
-x=iter(l)
-print(x)
-print(next(x))
-print("hello")
-print(next(x))
+# l=list(range(1,10))
+# x=iter(l)
+# 
 # for i in x:
 #     print(i)
 #     print(next(x))
+#print(x)
+# print(next(x))
+# print("hello")
+# print(next(x))
+
+l=list(range(1,10))
+x=iter(l)
+for i in range (15):
+ print(next(x))
+ x=int(input("enter a number"))
+ y=int(input("enter a number"))
+z=x/y
+print(z)
+# exept ZeroDivisionError 
+# print("please enter non-zero value against y")
