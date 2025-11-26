@@ -21,3 +21,5 @@ print(letter[4])
 #string ka third letter print karo
 text="sneha"
 print(text[2])
+
+
