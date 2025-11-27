@@ -1,26 +1,26 @@
 # write a program to check given number is positive ,negative or zero
-num=float(input("enter a number"))
-if num>0:
-    print("the number is positive")
-elif num<0:
-    print("the number is negative")
-else:
-    print("the number is zero")
+# num=float(input("enter a number"))
+# if num>0:
+#     print("the number is positive")
+# elif num<0:
+#     print("the number is negative")
+# else:
+#     print("the number is zero")
     
     #write a program to check grater no amoungs these three numbers
-x=int(input("enter a number"))
-y=int(input("enter a number"))
-z=int(input("enter a number"))
-if x>y:
-    if x>z:
-      print("greter no.is(x):",x)
-    else:
-        print("greter nomber is (z)",z)
-else:
-    if y>z:
-        print("greter number is (y)",y)
-    else:
-        print("greter number is (z)",z)
+# x=int(input("enter a number"))
+# y=int(input("enter a number"))
+# z=int(input("enter a number"))
+# if x>y:
+#     if x>z:
+#       print("greter no.is(x):",x)
+#     else:
+#         print("greter nomber is (z)",z)
+# else:
+#     if y>z:
+#         print("greter number is (y)",y)
+#     else:
+#         print("greter number is (z)",z)
  
  # write a program to check given number is positive ,negative or zero
 '''num=float(input("enter a number"))
@@ -110,15 +110,38 @@ area=(s*(s-a)*(s-b)*(s-c))**0.5
 print("the area of the triangle is:",area)'''
 
 #python program to swap two variable
-x=input("enter value of x:")
-y=input("enter value of y:")
-tem=x
-x=y
-y=tem
-print("the value of x after swapping:{}".format(x))
-print("the value of x after swapping:{}".format(y))
+# x=input("enter value of x:")
+# y=input("enter value of y:")
+# tem=x
+# x=y
+# y=tem
+# print("the value of x after swapping:{}".format(x))
+# print("the value of x after swapping:{}".format(y))
 
-#WAP to check given no is prime not.
-num=int(input("enter any number:"))
-factor=0
-if num       
+# #WAP to check given no is prime not.
+# num=int(input("enter any number:"))
+# factor=0
+# if num  
+     
+age =int(input("enter your age :"))
+if age <= 12:
+    print("you are a child")
+elif age <=13 and  age <=19:
+    print("teenage")
+elif age <= 20 and age <= 59:
+    print("adult")
+else:
+    print("senior")    
+    
+    
+    
+#sports   = ["cricket", "football" , "tennis", "football"]
+#print(sports.count("football")) 
+
+# num = int(input("enter a num:"))
+# fact = 1
+# for i in range(1, num+1):
+#     fact *= i
+#     print(fact)     
+ 
+    
