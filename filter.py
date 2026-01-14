@@ -142,9 +142,21 @@
 #     print(data2)
 #     print(f.tell())
 
-with open('n1.txt','rb+')as f:
-    print(f.tell())
-    f.read(10)
-    print(f.tell())
-    f.seek(-5,1)
-    print(f.tell)
+# with open('n1.txt','rb+')as f:
+#     print(f.tell())
+#     f.read(10)
+#     print(f.tell())
+#     f.seek(-5,1)
+#     print(f.tell)
+
+# class student:
+# obj=student('neeraj',123)
+# obj.addnew(234454)
+# print(obj.n,obj.c,obj.r)
+
+class student:
+    school='shss'
+    def __init__(self,name,rollno):\
+         self.n=name
+         self.r=rollno
+         
